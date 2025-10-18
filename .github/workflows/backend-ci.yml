@@ -1,0 +1,22 @@
+name: Node CI for Backend
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'backend/**'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        working-directory: ./backend
+        run: npm ci
+      - name: Run tests (placeholder)
+        working-directory: ./backend
+        run: echo "Add tests"

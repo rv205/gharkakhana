@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GHAR KA KHANA — Home-cooked meals in Pune</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><img src="assets/logo.png" alt="logo">GHAR KA KHANA</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Order / Menu</a></li>
+          <li><a href="chef.html">Become a Chef</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="cta" href="menu.html">Order Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Bringing the taste of home to your doorstep</h1>
+        <p>Authentic, hygienic, and lovingly prepared home-cooked meals by verified local chefs in Pune. Subscribe for regular plans or order on-demand.</p>
+        <div style="display:flex; gap:12px; margin-top:12px;">
+          <a href="menu.html"><button>Order Now</button></a>
+          <a href="chef.html"><button style="background:#fff; color:var(--brand); border:1px solid var(--brand)">Become a Chef</button></a>
+        </div>
+        <div class="features">
+          <div class="feature"><strong>Verified Chefs</strong><div class="muted">Background & hygiene checks</div></div>
+          <div class="feature"><strong>Real Home Food</strong><div class="muted">No artificial preservatives</div></div>
+          <div class="feature"><strong>Flexible Plans</strong><div class="muted">Tiffins, subscriptions & on-demand</div></div>
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <h3>Popular this week</h3>
+          <div class="menu-grid" id="popular">
+            <div class="dish"><h4>Rajma Chawal</h4><p class="muted">Comfort food from home</p><div style="display:flex; justify-content:space-between; align-items:center;"><div>₹120</div><button class="order-btn" data-dish="Rajma Chawal">Order</button></div></div>
+            <div class="dish"><h4>Masala Dosa</h4><p class="muted">Crispy & freshly made</p><div style="display:flex; justify-content:space-between; align-items:center;"><div>₹99</div><button class="order-btn" data-dish="Masala Dosa">Order</button></div></div>
+            <div class="dish"><h4>Paneer Butter Masala</h4><p class="muted">Creamy curry with rotis</p><div style="display:flex; justify-content:space-between; align-items:center;"><div>₹160</div><button class="order-btn" data-dish="Paneer Butter Masala">Order</button></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:28px">
+      <div class="two-col">
+        <div class="card">
+          <h3>How it works</h3>
+          <ol class="muted">
+            <li>Choose a chef or a subscription plan.</li>
+            <li>Place an order or schedule weekly meals.</li>
+            <li>We verify, pack, and deliver with care.</li>
+          </ol>
+          <p class="muted">We ensure all chefs are background-checked and trained in hygiene. Our delivery partners maintain real-time tracking to ensure on-time delivery.</p>
+        </div>
+        <aside class="card">
+          <h3>Download the App</h3>
+          <p class="muted">Get the GHAR KA KHANA app for Android & iOS for best experience.</p>
+          <div style="display:flex; gap:8px; margin-top:8px;">
+            <img src="assets/playstore.png" alt="play" style="height:40px">
+            <img src="assets/appstore.png" alt="app" style="height:40px">
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center;">
+      <div>© GHAR KA KHANA 2025 • Pune</div>
+      <div class="muted">Contact: contact@gharkakhana.in</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

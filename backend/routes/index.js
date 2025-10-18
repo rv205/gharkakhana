@@ -1,0 +1,13 @@
+const express = require('express');
+const router = express.Router();
+const authRoutes = require('./auth');
+const chefRoutes = require('./chefs');
+const dishRoutes = require('./dishes');
+const orderRoutes = require('./orders');
+const webhookRoutes = require('./webhook');
+router.use('/auth', authRoutes);
+router.use('/chefs', chefRoutes);
+router.use('/dishes', dishRoutes);
+router.use('/orders', orderRoutes);
+router.use('/webhook', webhookRoutes);
+module.exports = router;

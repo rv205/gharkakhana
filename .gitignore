@@ -1,0 +1,23 @@
+# Node/npm
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# env files
+.env
+backend/.env
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build outputs
+/dist
+/build
+/frontend/dist
